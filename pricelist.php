@@ -84,11 +84,11 @@ while ($p = $r->fetch_assoc())
        
     //Tillverkare
     //@TODO Finns en stöd i WC hämta från custom meta-fält om ni behöver
-	echo ';':
+	echo ';';
 
     //Tillverkar-SKU
     //@TODO Finns en stöd i WC hämta från custom meta-fält om ni behöver   
-	echo ';': 
+	echo ';'; 
 
     //radbrytning
     echo "\n";
