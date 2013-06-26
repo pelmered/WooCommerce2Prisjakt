@@ -23,7 +23,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 $r = $mysqli->query("SELECT * FROM wp_posts 
     WHERE post_type = 'product' AND post_status = 'publish' ");
 
-echo 'Produktnamn;Art.nr.;Kategori;Pris inkl.moms;Frakt;Produkt-URL;Bild-URL;Lagerstatus;Tillverkare;Tillverkar-SKU';
+echo 'Produktnamn;Art.nr.;Kategori;Pris inkl.moms;Frakt;Produkt-URL;Bild-URL;Lagerstatus;Tillverkare;Tillverkar-SKU'."\n";
 
 //
 //
@@ -82,13 +82,15 @@ while ($p = $r->fetch_assoc())
     else 
         echo 'Nej';
        
+    echo ';';
+    
     //Tillverkare
     //@TODO Finns en stöd i WC hämta från custom meta-fält om ni behöver
-	echo ';';
+    echo ';';
 
     //Tillverkar-SKU
     //@TODO Finns en stöd i WC hämta från custom meta-fält om ni behöver   
-	echo ';'; 
+    echo ';'; 
 
     //radbrytning
     echo "\n";
