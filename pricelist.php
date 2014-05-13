@@ -85,17 +85,17 @@ while ($p = $r->fetch_assoc())
     echo ';';
     
     //Tillverkare
-    //@TODO Finns en stöd i WC hämta från custom meta-fält om ni behöver
+    //@TODO Finns en stöd i WC för att hämta från custom meta-fält om ni behöver
     echo ';';
 
     //Tillverkar-SKU
-    //@TODO Finns en stöd i WC hämta från custom meta-fält om ni behöver   
+    //@TODO Finns en stöd i WC för att hämta från custom meta-fält om ni behöver   
     echo ';'; 
 
     //radbrytning
     echo "\n";
     
-    //Free results to samve memory
+    //Free results to save memory
     $r2->free();
     $r3->free();
 }
