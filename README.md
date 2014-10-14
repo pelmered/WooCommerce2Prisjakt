@@ -1,6 +1,10 @@
 WooCommerce2Prisjakt
 ====================
 
+This project has been discontinued in favor for [WooCommerce-Pricefiles](https://github.com/pelmered/WooCommerce-Pricefiles "WooCommerce Pricefiles on GitHub").
+
+
+
 A simple script to make a prisjakt.nu (price hunt) readable file for WooComemrce
 
 Install
